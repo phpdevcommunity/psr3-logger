@@ -1,0 +1,26 @@
+{
+    "name": "phpdevcommunity/psr3-logger",
+    "description": "A straightforward logging library for PHP that implements PSR-3, making it easy to integrate logging into your project.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "F. Michel",
+            "homepage": "https://www.phpdevcommunity.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpDevCommunity\\Log\\": "src",
+            "Test\\PhpDevCommunity\\Log\\": "tests"
+        }
+    },
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.4",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpdevcommunity/unitester": "^0.1.0@alpha"
+    }
+}
