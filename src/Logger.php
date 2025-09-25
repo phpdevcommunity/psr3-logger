@@ -16,6 +16,7 @@ class Logger extends AbstractLogger
         $this->handler = $handler;
     }
 
+    #[\ReturnTypeWillChange]
     public function log($level, $message, array $context = array())
     {
         $this->handler->handle([

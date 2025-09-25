@@ -18,7 +18,7 @@
     "minimum-stability": "alpha",
     "require": {
         "php": ">=7.4",
-        "psr/log": "^1.1"
+        "psr/log": "^1.1|^2.0"
     },
     "require-dev": {
         "phpdevcommunity/unitester": "^0.1.0@alpha"
